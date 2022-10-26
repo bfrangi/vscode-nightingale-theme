@@ -4,7 +4,7 @@
     "description": "Dark theme based on Kanagawa",
     "version": "0.0.1",
     "publisher": "bfrangi",
-    "license": "SEE LICENSE IN LICENSE.txt",
+    "license": "SEE LICENSE IN LICENSE",
     "icon": "media/logo.png",
     "repository": {
         "type": "git",
