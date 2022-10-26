@@ -47,9 +47,9 @@ View the `CHANGELOG` [here](https://github.com/bfrangi/vscode-nightingale-theme/
 
 ## More
 
-* View on the Visual Studio Marketplace [here]().
-* View on Open VSX [here]().
-* View on GitHub [here]().
+* View on the Visual Studio Marketplace [here](https://marketplace.visualstudio.com/items?itemName=bfrangi.vscode-nightingale-theme).
+* View on Open VSX [here](https://open-vsx.org/extension/bfrangi/vscode-nightingale-theme).
+* View on GitHub [here](https://github.com/bfrangi/vscode-nightingale-theme).
 
 -------------------------------------------------------------------
 
