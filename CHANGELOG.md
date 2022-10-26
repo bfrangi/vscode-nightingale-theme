@@ -5,6 +5,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 - No planned changes
+
+## [0.0.2] - 2022-10-26
+- Update color scheme.
+- Update `README.md`.
 ## [0.0.1] - 2022-10-26
 ### Added
 - Initial commit with the theme extension by [@bfrangi](https://github.com/bfrangi/). It is heavily based on the [Kanagawa](https://marketplace.visualstudio.com/items?itemName=BeeverFeever.kanagawa-vscode) theme by [BeeverFeever](https://marketplace.visualstudio.com/publishers/BeeverFeever).
@@ -18,5 +22,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 [Unreleased]: https://github.com/bfrangi/vscode-django-tex/compare/v0.0.1...HEAD
-<!-- [1.0.0]: https://github.com/bfrangi/vscode-django-tex/compare/v0.0.1...v1.0.0 -->
+[0.0.2]: https://github.com/bfrangi/vscode-django-tex/compare/v0.0.1...v0.0.2
 [0.0.1]: https://github.com/bfrangi/vscode-django-tex/releases/tag/v0.0.1 

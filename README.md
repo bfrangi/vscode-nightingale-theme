@@ -1,6 +1,6 @@
 # Nightingale Theme for VSCode
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/bfrangi.vscode-nightingale-theme?color=green&include_prereleases&label=Version)](https://marketplace.visualstudio.com/items?itemName=bfrangi.vscode-nightingale-theme)
+[![Version](https://img.shields.io/github/v/release/bfrangi/vscode-nightingale-theme?color=brightgreen&label=Version)](https://marketplace.visualstudio.com/items?itemName=bfrangi.vscode-nightingale-theme)
 [![Open VSX](https://img.shields.io/badge/Open%20VSX-vscode--nightingale--theme-purple)](https://open-vsx.org/extension/bfrangi/vscode-nightingale-theme)
 [![Open VSX Downloads](https://img.shields.io/open-vsx/dt/bfrangi/vscode-nightingale-theme?color=purple&label=Downloads)](https://open-vsx.org/extension/bfrangi/vscode-nightingale-theme)
 [![VS Marketplace](https://img.shields.io/badge/Visual%20Studio%20Marketplace-vscode--nightingale--theme-lightgray)](https://marketplace.visualstudio.com/items?itemName=bfrangi.vscode-nightingale-theme)
