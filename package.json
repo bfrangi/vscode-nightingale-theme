@@ -3,12 +3,29 @@
     "displayName": "Nightingale Theme",
     "description": "Dark theme based on Kanagawa",
     "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.72.0"
+    "publisher": "bfrangi",
+    "license": "SEE LICENSE IN LICENSE.txt",
+    "icon": "media/logo.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bfrangi/vscode-nightingale-theme"
     },
+    "bugs": {
+        "url": "https://github.com/bfrangi/vscode-nightingale-theme/issues"
+    },
+    "keywords": [
+		"dark",
+		"vscode",
+        "theme",
+        "kanagawa"
+	],
+	"homepage": "https://github.com/bfrangi/vscode-nightingale-theme",
     "categories": [
         "Themes"
     ],
+    "engines": {
+        "vscode": "^1.72.0"
+    },
     "contributes": {
         "themes": [
             {

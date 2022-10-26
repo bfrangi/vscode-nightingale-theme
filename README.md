@@ -14,7 +14,7 @@
 
 
 
-The **VSCode Nightingale Theme** extension (`vscode-nightingale-theme`) provides a dark theme based on the [Kanagawa](https://marketplace.visualstudio.com/items?itemName=BeeverFeever.kanagawa-vscode) theme by [BeeverFeever](https://marketplace.visualstudio.com/publishers/BeeverFeever).
+The **VSCode Nightingale Theme** extension (`vscode-nightingale-theme`) provides a dark theme based on [Kanagawa](https://marketplace.visualstudio.com/items?itemName=BeeverFeever.kanagawa-vscode) by [BeeverFeever](https://marketplace.visualstudio.com/publishers/BeeverFeever).
 
 -------------------------------------------------------------------
 
