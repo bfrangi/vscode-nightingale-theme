@@ -1,6 +1,6 @@
 {
 	"name": "Nightingale",
-	"include": "./dark_vs.json",
+	"include": "./others.json",
 	"semanticHighlighting": true,
     "colors": {
 		// Theme-specific colors
@@ -269,21 +269,6 @@
 			}
 		},
 		{
-			"name": "CSS property value",
-			"scope": [
-				"support.constant.property-value",
-				"support.constant.font-name",
-				"support.constant.media-type",
-				"support.constant.media",
-				"constant.other.color.rgb-value",
-				"constant.other.rgb-value",
-				"support.constant.color"
-			],
-			"settings": {
-				"foreground": "#ffaca3"
-			}
-		},
-		{
 			"name": "Regular expression groups",
 			"scope": [
 				"punctuation.definition.group.regexp",
@@ -545,13 +530,6 @@
 			}
 		},
         {
-			"name": "brackets of XML/HTML tags",
-			"scope": "punctuation.definition.tag",
-			"settings": {
-				"foreground": "#808080"
-			}
-		},
-        {
 			"scope": [
 				"meta.preprocessor",
 				"entity.name.function.preprocessor"
@@ -650,18 +628,261 @@
 			}
 		},
         {
-			"scope": [
+            "name": "JSON Key - Level 0",
+            "scope": [
+                "source.json meta.structure.dictionary.json support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "#D27E99"
+            }
+        },
+        {
+            "name": "JSON Key - Level 1",
+            "scope": [
+                "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "#E6C384"
+            }
+        },
+        {
+            "name": "JSON Key - Level 2",
+            "scope": [
+                "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "#FFA066"
+            }
+        },
+        {
+            "name": "JSON Key - Level 3",
+            "scope": [
+                "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "#FF5D62"
+            }
+        },
+        {
+            "name": "JSON Key - Level 4",
+            "scope": [
+                "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "#FFA066"
+            }
+        },
+        {
+            "name": "JSON Key - Level 5",
+            "scope": [
+                "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "#7E9CD8"
+            }
+        },
+        {
+            "name": "JSON Key - Level 6",
+            "scope": [
+                "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "#D27E99"
+            }
+        },
+        {
+            "name": "JSON Key - Level 7",
+            "scope": [
+                "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "#957FB8"
+            }
+        },
+        {
+            "name": "JSON Key - Level 8",
+            "scope": [
+                "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "#98BB6C"
+            }
+        },
+        {
+            "name": "Plain CSS",
+            "scope":[
+                "source.css meta.property-value.css",
+                "source.css meta.property-list.css",
+                "source.css meta.selector.css",
+            ],
+            "settings": {
+                "foreground": "#DCD7BA",
+            }
+        },
+        {
+			"name": "Brackets of XML/HTML tags",
+			"scope": "punctuation.definition.tag",
+			"settings": {
+				"foreground": "#808080"
+			}
+		},
+        {
+			"name": "HTML tags",
+			"scope": "entity.name.tag.html",
+			"settings": {
+				"foreground": "#769acc"
+			}
+		},
+        {
+            "name": "HTML Bold",
+            "scope": [
+                "meta.tag.inline.b.start.html",
+                "meta.tag.inline.b.end.html"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+            }
+        },
+        {
+            "name": "HTML Italics",
+            "scope": [
+                "meta.tag.inline.em.start.html",
+                "meta.tag.inline.em.end.html"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+            }
+        },
+        {
+            "name": "Strings in HTML Tags",
+            "scope":[
+                "string.quoted.double.html"
+            ],
+            "settings": {
+                "foreground": "#ffa994",
+            }
+        },
+        {
+            "name": "Plain HTML",
+            "scope": [
+                "text.html",
+            ],
+            "settings": {
+                "foreground": "#e8e4ca",
+            }
+        },
+        {
+            "name": "CSS Elements (ID, Class, etc.)",
+            "scope": [
+                "entity.other.attribute-name",
+            ],
+            "settings": {
+                "foreground": "#9CDCFE",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "CSS Class",
+            "scope": [
+                "entity.other.attribute-name.class",
+            ],
+            "settings": {
+                "foreground": "#E6C384",
+            }
+        },
+        {
+            "name": "CSS ID",
+            "scope": [
+                "entity.other.attribute-name.id",
+            ],
+            "settings": {
+                "foreground": "#E6C384",
+                "fontStyle": "italic",
+            }
+        },
+        {
+            "name": "CSS Property Name",
+            "scope": [
 				"support.type.vendored.property-name",
-				"support.type.property-name",
+                "source.css support.type.property-name",
+                "source.sass support.type.property-name",
+                "source.scss support.type.property-name",
+                "source.less support.type.property-name",
+                "source.stylus support.type.property-name",
+                "source.postcss support.type.property-name",
+                "support.type.property-name",
 				"variable.css",
 				"variable.scss",
 				"variable.other.less",
 				"source.coffee.embedded"
+            ],
+            "settings": {
+                "foreground": "#81b9f1"
+            }
+        },
+        {
+			"name": "CSS Property Value",
+			"scope": [
+				"support.constant.property-value",
+				"support.constant.font-name",
+				"support.constant.media-type",
+				"support.constant.media",
+				"constant.other.color.rgb-value",
+				"constant.other.rgb-value",
+				"support.constant.color"
 			],
 			"settings": {
-				"foreground": "#9cdcfe"
+				"foreground": "#FF9488"
 			}
 		},
+        {
+            "name": "CSS Units",
+            "scope": [
+                "keyword.other.unit",
+            ],
+            "settings": { 
+                "foreground": "#FF9488", 
+                "fontStyle": "italic" 
+            }
+        },
+        {
+            "name": "Django Template - Tag Names and Operators",
+            "scope": [
+                "keyword.control.tag-name.django",
+                "keyword.operator.django",
+				"constant.other.tag.name.django"
+            ],
+            "settings": {
+                "foreground": "#d89ce2"
+            }
+        },
+		{
+            "name": "Django Template - Text",
+            "scope": [
+                "text.tex.django"
+            ],
+            "settings": {
+                "foreground": "#e1dcc1"
+            }
+        },
+        {
+            "name": "Django Template - Tag Variables",
+            "scope": [
+                "string.unquoted.tag-string.django"
+            ],
+            "settings": {
+                "foreground": "#f3cd87"
+            }
+        },
+        {
+            "name": "Django Template - Other Template Tag Content",
+            "scope": [
+                "storage.type.templatetag.django"
+            ],
+            "settings": {
+                "foreground": "#f3cd87"
+            }
+        }
 	],
 	"semanticTokenColors": {
 		"newOperator":"#a584c0",
