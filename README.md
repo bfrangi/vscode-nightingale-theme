@@ -9,11 +9,6 @@
 [![GitHub Downloads](https://img.shields.io/github/downloads/bfrangi/vscode-nightingale-theme/total?color=blue&label=Downloads)](https://github.com/bfrangi/vscode-nightingale-theme)
 
 
-
-
-
-
-
 The **VSCode Nightingale Theme** extension (`vscode-nightingale-theme`) provides a dark theme based on [Kanagawa](https://marketplace.visualstudio.com/items?itemName=BeeverFeever.kanagawa-vscode) by [BeeverFeever](https://marketplace.visualstudio.com/publishers/BeeverFeever).
 
 -------------------------------------------------------------------
