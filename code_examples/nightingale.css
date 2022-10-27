@@ -1,0 +1,23 @@
+.nightingale {
+    font-family: 'Luscinia megarhynchos';
+    font-weight: 20/*g*/;
+    height: 15cm;
+    max-height: 16.5cm;
+    width: 5cm;
+    max-width: 6cm;
+    color: #8f593e;
+    background-color: rgb(156, 127, 94);
+    visibility: visible;
+}
+
+#western-nightingale {
+    font-family: 'L. m. megarhynchos';
+}
+
+#caucasian-nightingale {
+    font-family: 'L. m. africana';
+}
+
+#eastern-nightingale {
+    font-family: 'L. m. golzii';
+}

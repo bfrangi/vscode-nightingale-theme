@@ -1,0 +1,24 @@
+{
+	"name": "Common Nightingale",
+	"scientific_name": "Common Nightingale",
+    "population_status": "stable",
+    "average_mass": "20g",
+    "active_time": "Night (10 p.m. to 7 a.m.)",
+    "sub_species": [
+        { 
+            "name": "Western nightingale",
+            "scientific_name": "L. m. megarhynchos",
+            "description": "Western Europe, North Africa and Asia Minor, wintering in tropical Africa"
+        },
+        {
+            "name": "Caucasian nightingale",
+            "scientific_name": "L. m. africana",
+            "description": "The Caucasus and eastern Turkey to southwestern Iran and Iraq, wintering in East Africa"
+        },
+        {
+            "name": "Eastern nightingale",
+            "scientific_name": "L. m. golzii",
+            "description": "The Aral Sea to Mongolia, wintering in coastal East Africa"
+        }
+    ]
+}

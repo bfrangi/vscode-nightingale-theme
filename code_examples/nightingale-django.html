@@ -1,0 +1,34 @@
+{% extends "nightingale/base.html" %} {% load static %}
+
+{% block js_scripts %}
+<script src="{% static 'nightingale/js/sing.js' %}"></script>
+{% endblock js_scripts %} 
+
+{% block content %}
+<div class="container col-md-10" style="margin-top: 30px">
+  <h1 class="ng-heading">Nightingale</h1>
+
+  The <b>common nightingale</b>, <b>rufous nightingale</b> or simply
+  <b>nightingale</b> (<em>Luscinia megarhynchos</em>), is a small 
+  passerine bird best known for its powerful and beautiful song.
+  (From <a href="{% url 'nightingale_wikipedia' %}">Wikipedia</a>)
+
+  <h2 class="ng-heading">Subspecies</h2>
+
+  <ul class="ng-list">
+    {% for subspecies in subspecies_data %}
+
+    <li id="list-item-{{subspecies.name}}">
+      <b>{{subspecies.name}}</b> 
+      (<em>{{subspecies.scientific_name}}</em>) -
+      {{subspecies.description}}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock content %}
+
+
+
+
+
