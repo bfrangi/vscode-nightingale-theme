@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update `colors`.
 - Update `tokenColors`.
 - Update `README.md` with example code images for different languages.
+  
 ### Added
 - Example code used for the images of the `README.md`
 
@@ -19,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Update color scheme.
 - Update `README.md`.
+  
 ## [0.0.1] - 2022-10-26
 ### Added
 - Initial commit with the theme extension by [@bfrangi](https://github.com/bfrangi/). It is heavily based on the [Kanagawa](https://marketplace.visualstudio.com/items?itemName=BeeverFeever.kanagawa-vscode) theme by [BeeverFeever](https://marketplace.visualstudio.com/publishers/BeeverFeever).

@@ -1,8 +1,5 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"colors": {
-
-	},
 	"tokenColors": [
 		{
 			"scope": [
@@ -33,38 +30,38 @@
 			}
 		},
 		{
-			"scope": "constant.language",//??
+			"scope": "constant.language", // *
 			"settings": {
 				"foreground": "#569cd6"
 			}
 		},
 		{
-			"scope": "constant.regexp",//??
+			"scope": "constant.regexp", // *
 			"settings": {
 				"foreground": "#646695"
 			}
 		},
 		{
-			"scope": "entity.name.tag",//??
+			"scope": "entity.name.tag", // *
 			"settings": {
 				"foreground": "#569cd6"
 			}
 		},
 		{
-			"scope": "entity.name.tag.css",//??
+			"scope": "entity.name.tag.css", // *
 			"settings": {
 				"foreground": "#d7ba7d"
 			}
 		},
 		{
-			"scope": "entity.other.attribute-name",//??
+			"scope": "entity.other.attribute-name", // *
 			"settings": {
 				"foreground": "#9cdcfe"
 			}
 		},
 		{
 			"scope": [
-				"entity.other.attribute-name.class.css",//??
+				"entity.other.attribute-name.class.css", // *
 				"entity.other.attribute-name.class.mixin.css",
 				"entity.other.attribute-name.id.css",
 				"entity.other.attribute-name.parent-selector.css",
@@ -78,20 +75,20 @@
 			}
 		},
 		{
-			"scope": "meta.structure.dictionary.key.python",//??
+			"scope": "meta.structure.dictionary.key.python", // *
 			"settings": {
 				"foreground": "#9cdcfe"
 			}
 		},
 		{
-			"scope": "keyword.other.unit",//??
+			"scope": "keyword.other.unit", // *
 			"settings": {
 				"foreground": "#b5cea8"
 			}
 		},
 		{
 			"scope": [
-				"punctuation.section.embedded.begin.php",//??
+				"punctuation.section.embedded.begin.php", // *
 				"punctuation.section.embedded.end.php"
 			],
 			"settings": {
@@ -99,19 +96,19 @@
 			}
 		},
 		{
-			"scope": "support.function.git-rebase",//??
+			"scope": "support.function.git-rebase", // *
 			"settings": {
 				"foreground": "#9cdcfe"
 			}
 		},
 		{
-			"scope": "constant.sha.git-rebase",//??
+			"scope": "constant.sha.git-rebase", // *
 			"settings": {
 				"foreground": "#b5cea8"
 			}
 		},
 		{
-			"name": "coloring of the Java import and package identifiers",//??
+			"name": "coloring of the Java import and package identifiers", // *
 			"scope": [
 				"storage.modifier.import.java",
 				"variable.language.wildcard.java",
@@ -122,7 +119,7 @@
 			}
 		},
 		{
-			"name": "this.self",//??
+			"name": "this.self", // *
 			"scope": "variable.language",
 			"settings": {
 				"foreground": "#569cd6"

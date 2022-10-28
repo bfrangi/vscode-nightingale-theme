@@ -31,7 +31,7 @@ ext install bfrangi.vscode-nightingale-theme
     <img src="https://github.com/bfrangi/vscode-nightingale-theme/raw/main/media/code_examples/nightingale-py.png" />
     </p>
 
-    <detail>
+    <details>
     <summary>Examples with other programming languages</summary>
 
     <p align="center">
