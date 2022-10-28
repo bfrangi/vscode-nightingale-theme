@@ -5,7 +5,7 @@
 	"semanticHighlighting": true,
     "colors": {
 		// Theme-specific colors
-		"editor.background": "#202020",
+		// "editor.background": "#202020",
 		"editor.foreground": "#ffffff",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb",

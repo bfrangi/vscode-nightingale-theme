@@ -21,7 +21,7 @@ public:
         cout << "Population Status : " << population_status << endl;
         cout << "Active Time : " << active_time << endl;
     }
-
+    
     void sing()
     {
         for (int i = 0; i < 10; i++)
@@ -37,3 +37,6 @@ int main()
     nightingale.sing();
     nightingale.printDetails();
 }
+
+
+

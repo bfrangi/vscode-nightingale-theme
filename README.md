@@ -15,7 +15,7 @@ The **VSCode Nightingale Theme** extension (`vscode-nightingale-theme`) provides
 
 ## Installation 
 
-You can install this extension directly from the Extension Marketplace in VSCode. You can also launch *VS Code Quick Open* (`Ctrl+P`), paste the following command, and press enter:
+You can install this extension directly from the Extension Marketplace in VSCode by searching up 'Nightingale Theme'. You can also launch *VS Code Quick Open* (`Ctrl+P`), paste the following command, and press enter:
 
 ```
 ext install bfrangi.vscode-nightingale-theme
@@ -28,9 +28,53 @@ ext install bfrangi.vscode-nightingale-theme
 * This extension features **full workbench theming**.
 
     <p align="center">
-    <img src="https://github.com/bfrangi/vscode-nightingale-theme/raw/main/media/nightingale.png" />
+    <img src="https://github.com/bfrangi/vscode-nightingale-theme/raw/main/media/code_examples/nightingale-py.png" />
     </p>
 
+    <detail>
+    <summary>Examples with other programming languages</summary>
+
+    <p align="center">
+    <img src="https://github.com/bfrangi/vscode-nightingale-theme/raw/main/media/code_examples/nightingale-cpp.png" />
+    </p>
+
+    <p align="center">
+    <img src="https://github.com/bfrangi/vscode-nightingale-theme/raw/main/media/code_examples/nightingale-css.png" />
+    </p>
+
+    <p align="center">
+    <img src="https://github.com/bfrangi/vscode-nightingale-theme/raw/main/media/code_examples/nightingale-html.png" />
+    </p>
+
+    <p align="center">
+    <img src="https://github.com/bfrangi/vscode-nightingale-theme/raw/main/media/code_examples/nightingale-js.png" />
+    </p>
+
+    <p align="center">
+    <img src="https://github.com/bfrangi/vscode-nightingale-theme/raw/main/media/code_examples/nightingale-json.png" />
+    </p>
+
+    <p align="center">
+    <img src="https://github.com/bfrangi/vscode-nightingale-theme/raw/main/media/code_examples/nightingale-md.png" />
+    </p>
+
+    <p align="center">
+    <img src="https://github.com/bfrangi/vscode-nightingale-theme/raw/main/media/code_examples/nightingale-tex.png" />
+    </p>
+
+    </details>
+
+* Terminal theming.
+
+    <p align="center">
+    <img src="https://github.com/bfrangi/vscode-nightingale-theme/raw/main/media/code_examples/nightingale-terminal.png" />
+    </p>
+
+* Bonus: Specific theming for django template files.
+
+    <p align="center">
+    <img src="https://github.com/bfrangi/vscode-nightingale-theme/raw/main/media/code_examples/nightingale-django.png" />
+    </p>
     
 -------------------------------------------------------------------
 

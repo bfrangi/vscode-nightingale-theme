@@ -6,7 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 - No planned changes
 
+## [1.0.0] - 2022-10-28
+### Changed
+- Update `colors`.
+- Update `tokenColors`.
+- Update `README.md` with example code images for different languages.
+### Added
+- Example code used for the images of the `README.md`
+
 ## [0.0.2] - 2022-10-26
+### Changed
+
 - Update color scheme.
 - Update `README.md`.
 ## [0.0.1] - 2022-10-26
@@ -22,5 +32,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 [Unreleased]: https://github.com/bfrangi/vscode-nightingale-theme/compare/v0.0.2...HEAD
+[1.0.0]: https://github.com/bfrangi/vscode-nightingale-theme/compare/v0.0.2...v1.0.0
 [0.0.2]: https://github.com/bfrangi/vscode-nightingale-theme/compare/v0.0.1...v0.0.2
 [0.0.1]: https://github.com/bfrangi/vscode-nightingale-theme/releases/tag/v0.0.1 
