@@ -33,7 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]: https://github.com/bfrangi/vscode-nightingale-theme/compare/v0.0.2...HEAD
+[Unreleased]: https://github.com/bfrangi/vscode-nightingale-theme/compare/v0.0.1...HEAD
 [1.0.0]: https://github.com/bfrangi/vscode-nightingale-theme/compare/v0.0.2...v1.0.0
 [0.0.2]: https://github.com/bfrangi/vscode-nightingale-theme/compare/v0.0.1...v0.0.2
 [0.0.1]: https://github.com/bfrangi/vscode-nightingale-theme/releases/tag/v0.0.1 
